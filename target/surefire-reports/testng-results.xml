@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="27" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="284457" started-at="2017-06-12T13:55:56Z" finished-at="2017-06-12T14:00:40Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="284457" started-at="2017-06-12T13:55:56Z" finished-at="2017-06-12T14:00:40Z">
+      <class name="TestAdmin">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:TestAdmin@dfd3711]" name="setUp" is-config="true" duration-ms="6281" started-at="2017-06-12T16:55:56Z" finished-at="2017-06-12T16:56:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCreationQueue()[pri:1, instance:TestAdmin@dfd3711]" name="checkCreationQueue" duration-ms="25188" started-at="2017-06-12T16:56:02Z" finished-at="2017-06-12T16:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreationQueue -->
+        <test-method status="PASS" signature="checkRecipient()[pri:2, instance:TestAdmin@dfd3711]" name="checkRecipient" duration-ms="5306" started-at="2017-06-12T16:56:27Z" finished-at="2017-06-12T16:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRecipient -->
+        <test-method status="PASS" signature="checkChangeQueueAndHistory()[pri:3, instance:TestAdmin@dfd3711]" name="checkChangeQueueAndHistory" duration-ms="4255" started-at="2017-06-12T16:56:32Z" finished-at="2017-06-12T16:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkChangeQueueAndHistory -->
+        <test-method status="PASS" signature="checkChangeStatusAndUnavailableForm()[pri:4, instance:TestAdmin@dfd3711]" name="checkChangeStatusAndUnavailableForm" duration-ms="3898" started-at="2017-06-12T16:56:37Z" finished-at="2017-06-12T16:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkChangeStatusAndUnavailableForm -->
+        <test-method status="PASS" signature="checkDeletingQueue()[pri:5, instance:TestAdmin@dfd3711]" name="checkDeletingQueue" duration-ms="9411" started-at="2017-06-12T16:56:41Z" finished-at="2017-06-12T16:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeletingQueue -->
+        <test-method status="PASS" signature="checkCancelQueue()[pri:6, instance:TestAdmin@dfd3711]" name="checkCancelQueue" duration-ms="17826" started-at="2017-06-12T16:56:50Z" finished-at="2017-06-12T16:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCancelQueue -->
+        <test-method status="PASS" signature="checkExportExcelButton()[pri:7, instance:TestAdmin@dfd3711]" name="checkExportExcelButton" duration-ms="67" started-at="2017-06-12T16:57:08Z" finished-at="2017-06-12T16:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExportExcelButton -->
+        <test-method status="PASS" signature="checkFilter()[pri:8, instance:TestAdmin@dfd3711]" name="checkFilter" duration-ms="16256" started-at="2017-06-12T16:57:08Z" finished-at="2017-06-12T16:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilter -->
+        <test-method status="PASS" signature="checkSortingInt()[pri:9, instance:TestAdmin@dfd3711]" name="checkSortingInt" duration-ms="13168" started-at="2017-06-12T16:57:24Z" finished-at="2017-06-12T16:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSortingInt -->
+        <test-method status="PASS" signature="checkSortingString()[pri:10, instance:TestAdmin@dfd3711]" name="checkSortingString" duration-ms="11809" started-at="2017-06-12T16:57:37Z" finished-at="2017-06-12T16:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSortingString -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestAdmin@dfd3711]" name="tearDown" is-config="true" duration-ms="1261" started-at="2017-06-12T16:57:49Z" finished-at="2017-06-12T16:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestAdmin -->
+      <class name="TestAdminDeletingCreationQueue">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:TestAdminDeletingCreationQueue@42d3bd8b]" name="setUp" is-config="true" duration-ms="4395" started-at="2017-06-12T17:00:02Z" finished-at="2017-06-12T17:00:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkDeletingQueueWhichCreatedByOperator()[pri:27, instance:TestAdminDeletingCreationQueue@42d3bd8b]" name="checkDeletingQueueWhichCreatedByOperator" duration-ms="32315" started-at="2017-06-12T17:00:07Z" finished-at="2017-06-12T17:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeletingQueueWhichCreatedByOperator -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestAdminDeletingCreationQueue@42d3bd8b]" name="tearDown" is-config="true" duration-ms="913" started-at="2017-06-12T17:00:39Z" finished-at="2017-06-12T17:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestAdminDeletingCreationQueue -->
+      <class name="TestUser">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:TestUser@5f2050f6]" name="setUp" is-config="true" duration-ms="5009" started-at="2017-06-12T16:57:50Z" finished-at="2017-06-12T16:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkDisplayedAddButtonUser()[pri:11, instance:TestUser@5f2050f6]" name="checkDisplayedAddButtonUser" duration-ms="14515" started-at="2017-06-12T16:57:55Z" finished-at="2017-06-12T16:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDisplayedAddButtonUser -->
+        <test-method status="PASS" signature="checkDisplayedExportExcelButtonUser()[pri:12, instance:TestUser@5f2050f6]" name="checkDisplayedExportExcelButtonUser" duration-ms="74" started-at="2017-06-12T16:58:10Z" finished-at="2017-06-12T16:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDisplayedExportExcelButtonUser -->
+        <test-method status="PASS" signature="checkFilterUser()[pri:13, instance:TestUser@5f2050f6]" name="checkFilterUser" duration-ms="11926" started-at="2017-06-12T16:58:10Z" finished-at="2017-06-12T16:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterUser -->
+        <test-method status="PASS" signature="checkHistoryUser()[pri:14, instance:TestUser@5f2050f6]" name="checkHistoryUser" duration-ms="5793" started-at="2017-06-12T16:58:22Z" finished-at="2017-06-12T16:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHistoryUser -->
+        <test-method status="PASS" signature="checkSortingIntUser()[pri:15, instance:TestUser@5f2050f6]" name="checkSortingIntUser" duration-ms="11928" started-at="2017-06-12T16:58:28Z" finished-at="2017-06-12T16:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSortingIntUser -->
+        <test-method status="PASS" signature="checkSortingStringUser()[pri:16, instance:TestUser@5f2050f6]" name="checkSortingStringUser" duration-ms="8763" started-at="2017-06-12T16:58:40Z" finished-at="2017-06-12T16:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSortingStringUser -->
+        <test-method status="PASS" signature="checkDisplayedAddingButtonUser()[pri:17, instance:TestUser@5f2050f6]" name="checkDisplayedAddingButtonUser" duration-ms="3050" started-at="2017-06-12T16:58:48Z" finished-at="2017-06-12T16:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDisplayedAddingButtonUser -->
+        <test-method status="PASS" signature="checkEnabledAllFieldsForChangingUser()[pri:18, instance:TestUser@5f2050f6]" name="checkEnabledAllFieldsForChangingUser" duration-ms="8474" started-at="2017-06-12T16:58:51Z" finished-at="2017-06-12T16:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEnabledAllFieldsForChangingUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestUser@5f2050f6]" name="tearDown" is-config="true" duration-ms="1252" started-at="2017-06-12T16:59:00Z" finished-at="2017-06-12T16:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestUser -->
+      <class name="TestOperator">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:TestOperator@26ba2a48]" name="setUp" is-config="true" duration-ms="4408" started-at="2017-06-12T16:59:01Z" finished-at="2017-06-12T16:59:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkDisplayedAddButtonOperator()[pri:19, instance:TestOperator@26ba2a48]" name="checkDisplayedAddButtonOperator" duration-ms="9975" started-at="2017-06-12T16:59:06Z" finished-at="2017-06-12T16:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDisplayedAddButtonOperator -->
+        <test-method status="PASS" signature="checkExportExcelButtonOperator()[pri:20, instance:TestOperator@26ba2a48]" name="checkExportExcelButtonOperator" duration-ms="41" started-at="2017-06-12T16:59:15Z" finished-at="2017-06-12T16:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExportExcelButtonOperator -->
+        <test-method status="PASS" signature="checkEnabledAllFieldsForChangingOperator()[pri:21, instance:TestOperator@26ba2a48]" name="checkEnabledAllFieldsForChangingOperator" duration-ms="10245" started-at="2017-06-12T16:59:16Z" finished-at="2017-06-12T16:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEnabledAllFieldsForChangingOperator -->
+        <test-method status="PASS" signature="checkCreationQueueOperator()[pri:22, instance:TestOperator@26ba2a48]" name="checkCreationQueueOperator" duration-ms="12521" started-at="2017-06-12T16:59:26Z" finished-at="2017-06-12T16:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreationQueueOperator -->
+        <test-method status="PASS" signature="checkRecipientOperator()[pri:23, instance:TestOperator@26ba2a48]" name="checkRecipientOperator" duration-ms="5219" started-at="2017-06-12T16:59:38Z" finished-at="2017-06-12T16:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRecipientOperator -->
+        <test-method status="PASS" signature="checkChangeQueueAndHistoryOperator()[pri:24, instance:TestOperator@26ba2a48]" name="checkChangeQueueAndHistoryOperator" duration-ms="4079" started-at="2017-06-12T16:59:44Z" finished-at="2017-06-12T16:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkChangeQueueAndHistoryOperator -->
+        <test-method status="PASS" signature="checkChangeStatusAndUnavailableFormOperator()[pri:25, instance:TestOperator@26ba2a48]" name="checkChangeStatusAndUnavailableFormOperator" duration-ms="3497" started-at="2017-06-12T16:59:48Z" finished-at="2017-06-12T16:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkChangeStatusAndUnavailableFormOperator -->
+        <test-method status="PASS" signature="checkDeletingQueueOperator()[pri:26, instance:TestOperator@26ba2a48]" name="checkDeletingQueueOperator" duration-ms="10367" started-at="2017-06-12T16:59:51Z" finished-at="2017-06-12T17:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeletingQueueOperator -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestOperator@26ba2a48]" name="tearDown" is-config="true" duration-ms="910" started-at="2017-06-12T17:00:01Z" finished-at="2017-06-12T17:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestOperator -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkCancelQueue">checkCancelQueue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkChangeQueueAndHistory">checkChangeQueueAndHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestOperator" hash-for-method="checkChangeQueueAndHistoryOperator">checkChangeQueueAndHistoryOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkChangeStatusAndUnavailableForm">checkChangeStatusAndUnavailableForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestOperator" hash-for-method="checkChangeStatusAndUnavailableFormOperator">checkChangeStatusAndUnavailableFormOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkCreationQueue">checkCreationQueue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestOperator" hash-for-method="checkCreationQueueOperator">checkCreationQueueOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkDeletingQueue">checkDeletingQueue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestOperator" hash-for-method="checkDeletingQueueOperator">checkDeletingQueueOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdminDeletingCreationQueue" hash-for-method="checkDeletingQueueWhichCreatedByOperator">checkDeletingQueueWhichCreatedByOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestOperator" hash-for-method="checkDisplayedAddButtonOperator">checkDisplayedAddButtonOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestUser" hash-for-method="checkDisplayedAddButtonUser">checkDisplayedAddButtonUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestUser" hash-for-method="checkDisplayedAddingButtonUser">checkDisplayedAddingButtonUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestUser" hash-for-method="checkDisplayedExportExcelButtonUser">checkDisplayedExportExcelButtonUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestOperator" hash-for-method="checkEnabledAllFieldsForChangingOperator">checkEnabledAllFieldsForChangingOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestUser" hash-for-method="checkEnabledAllFieldsForChangingUser">checkEnabledAllFieldsForChangingUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkExportExcelButton">checkExportExcelButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestOperator" hash-for-method="checkExportExcelButtonOperator">checkExportExcelButtonOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkFilter">checkFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestUser" hash-for-method="checkFilterUser">checkFilterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestUser" hash-for-method="checkHistoryUser">checkHistoryUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkRecipient">checkRecipient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestOperator" hash-for-method="checkRecipientOperator">checkRecipientOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkSortingInt">checkSortingInt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestUser" hash-for-method="checkSortingIntUser">checkSortingIntUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestAdmin" hash-for-method="checkSortingString">checkSortingString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestUser" hash-for-method="checkSortingStringUser">checkSortingStringUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestAdminDeletingCreationQueue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDeletingQueueWhichCreatedByOperator">
+                  </a> <!-- checkDeletingQueueWhichCreatedByOperator -->
+                  <span class="method-name">checkDeletingQueueWhichCreatedByOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDisplayedAddButtonUser">
+                  </a> <!-- checkDisplayedAddButtonUser -->
+                  <span class="method-name">checkDisplayedAddButtonUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDisplayedAddingButtonUser">
+                  </a> <!-- checkDisplayedAddingButtonUser -->
+                  <span class="method-name">checkDisplayedAddingButtonUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDisplayedExportExcelButtonUser">
+                  </a> <!-- checkDisplayedExportExcelButtonUser -->
+                  <span class="method-name">checkDisplayedExportExcelButtonUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEnabledAllFieldsForChangingUser">
+                  </a> <!-- checkEnabledAllFieldsForChangingUser -->
+                  <span class="method-name">checkEnabledAllFieldsForChangingUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFilterUser">
+                  </a> <!-- checkFilterUser -->
+                  <span class="method-name">checkFilterUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHistoryUser">
+                  </a> <!-- checkHistoryUser -->
+                  <span class="method-name">checkHistoryUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSortingIntUser">
+                  </a> <!-- checkSortingIntUser -->
+                  <span class="method-name">checkSortingIntUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSortingStringUser">
+                  </a> <!-- checkSortingStringUser -->
+                  <span class="method-name">checkSortingStringUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestOperator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkChangeQueueAndHistoryOperator">
+                  </a> <!-- checkChangeQueueAndHistoryOperator -->
+                  <span class="method-name">checkChangeQueueAndHistoryOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkChangeStatusAndUnavailableFormOperator">
+                  </a> <!-- checkChangeStatusAndUnavailableFormOperator -->
+                  <span class="method-name">checkChangeStatusAndUnavailableFormOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCreationQueueOperator">
+                  </a> <!-- checkCreationQueueOperator -->
+                  <span class="method-name">checkCreationQueueOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDeletingQueueOperator">
+                  </a> <!-- checkDeletingQueueOperator -->
+                  <span class="method-name">checkDeletingQueueOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDisplayedAddButtonOperator">
+                  </a> <!-- checkDisplayedAddButtonOperator -->
+                  <span class="method-name">checkDisplayedAddButtonOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEnabledAllFieldsForChangingOperator">
+                  </a> <!-- checkEnabledAllFieldsForChangingOperator -->
+                  <span class="method-name">checkEnabledAllFieldsForChangingOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExportExcelButtonOperator">
+                  </a> <!-- checkExportExcelButtonOperator -->
+                  <span class="method-name">checkExportExcelButtonOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRecipientOperator">
+                  </a> <!-- checkRecipientOperator -->
+                  <span class="method-name">checkRecipientOperator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestAdmin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCancelQueue">
+                  </a> <!-- checkCancelQueue -->
+                  <span class="method-name">checkCancelQueue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkChangeQueueAndHistory">
+                  </a> <!-- checkChangeQueueAndHistory -->
+                  <span class="method-name">checkChangeQueueAndHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkChangeStatusAndUnavailableForm">
+                  </a> <!-- checkChangeStatusAndUnavailableForm -->
+                  <span class="method-name">checkChangeStatusAndUnavailableForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCreationQueue">
+                  </a> <!-- checkCreationQueue -->
+                  <span class="method-name">checkCreationQueue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDeletingQueue">
+                  </a> <!-- checkDeletingQueue -->
+                  <span class="method-name">checkDeletingQueue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExportExcelButton">
+                  </a> <!-- checkExportExcelButton -->
+                  <span class="method-name">checkExportExcelButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFilter">
+                  </a> <!-- checkFilter -->
+                  <span class="method-name">checkFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRecipient">
+                  </a> <!-- checkRecipient -->
+                  <span class="method-name">checkRecipient</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSortingInt">
+                  </a> <!-- checkSortingInt -->
+                  <span class="method-name">checkSortingInt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSortingString">
+                  </a> <!-- checkSortingString -->
+                  <span class="method-name">checkSortingString</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BaseTest&quot;/&gt;
+      &lt;class name=&quot;TestAdmin&quot;/&gt;
+      &lt;class name=&quot;TestAdminDeletingCreationQueue&quot;/&gt;
+      &lt;class name=&quot;TestOperator&quot;/&gt;
+      &lt;class name=&quot;TestUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkDeletingQueueWhichCreatedByOperator')
+data.setCell(0, 2, 'TestAdminDeletingCreationQueue')
+data.setCell(0, 3, 32315);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkCreationQueue')
+data.setCell(1, 2, 'TestAdmin')
+data.setCell(1, 3, 25188);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkCancelQueue')
+data.setCell(2, 2, 'TestAdmin')
+data.setCell(2, 3, 17826);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkFilter')
+data.setCell(3, 2, 'TestAdmin')
+data.setCell(3, 3, 16256);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkDisplayedAddButtonUser')
+data.setCell(4, 2, 'TestUser')
+data.setCell(4, 3, 14515);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkSortingInt')
+data.setCell(5, 2, 'TestAdmin')
+data.setCell(5, 3, 13168);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkCreationQueueOperator')
+data.setCell(6, 2, 'TestOperator')
+data.setCell(6, 3, 12521);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkSortingIntUser')
+data.setCell(7, 2, 'TestUser')
+data.setCell(7, 3, 11928);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkFilterUser')
+data.setCell(8, 2, 'TestUser')
+data.setCell(8, 3, 11926);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkSortingString')
+data.setCell(9, 2, 'TestAdmin')
+data.setCell(9, 3, 11809);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkDeletingQueueOperator')
+data.setCell(10, 2, 'TestOperator')
+data.setCell(10, 3, 10367);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkEnabledAllFieldsForChangingOperator')
+data.setCell(11, 2, 'TestOperator')
+data.setCell(11, 3, 10245);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkDisplayedAddButtonOperator')
+data.setCell(12, 2, 'TestOperator')
+data.setCell(12, 3, 9975);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkDeletingQueue')
+data.setCell(13, 2, 'TestAdmin')
+data.setCell(13, 3, 9411);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkSortingStringUser')
+data.setCell(14, 2, 'TestUser')
+data.setCell(14, 3, 8763);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkEnabledAllFieldsForChangingUser')
+data.setCell(15, 2, 'TestUser')
+data.setCell(15, 3, 8474);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkHistoryUser')
+data.setCell(16, 2, 'TestUser')
+data.setCell(16, 3, 5793);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkRecipient')
+data.setCell(17, 2, 'TestAdmin')
+data.setCell(17, 3, 5306);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkRecipientOperator')
+data.setCell(18, 2, 'TestOperator')
+data.setCell(18, 3, 5219);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkChangeQueueAndHistory')
+data.setCell(19, 2, 'TestAdmin')
+data.setCell(19, 3, 4255);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkChangeQueueAndHistoryOperator')
+data.setCell(20, 2, 'TestOperator')
+data.setCell(20, 3, 4079);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkChangeStatusAndUnavailableForm')
+data.setCell(21, 2, 'TestAdmin')
+data.setCell(21, 3, 3898);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkChangeStatusAndUnavailableFormOperator')
+data.setCell(22, 2, 'TestOperator')
+data.setCell(22, 3, 3497);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkDisplayedAddingButtonUser')
+data.setCell(23, 2, 'TestUser')
+data.setCell(23, 3, 3050);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkDisplayedExportExcelButtonUser')
+data.setCell(24, 2, 'TestUser')
+data.setCell(24, 3, 74);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkExportExcelButton')
+data.setCell(25, 2, 'TestAdmin')
+data.setCell(25, 3, 67);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkExportExcelButtonOperator')
+data.setCell(26, 2, 'TestOperator')
+data.setCell(26, 3, 41);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestAdmin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkCreationQueue</span>
+                <span class="method-start">6300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRecipient</span>
+                <span class="method-start">31490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkChangeQueueAndHistory</span>
+                <span class="method-start">36796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkChangeStatusAndUnavailableForm</span>
+                <span class="method-start">41052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDeletingQueue</span>
+                <span class="method-start">44951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCancelQueue</span>
+                <span class="method-start">54363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkExportExcelButton</span>
+                <span class="method-start">72190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkFilter</span>
+                <span class="method-start">72257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSortingInt</span>
+                <span class="method-start">88514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSortingString</span>
+                <span class="method-start">101683 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113492 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">114753 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkDisplayedAddButtonUser</span>
+                <span class="method-start">119762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDisplayedExportExcelButtonUser</span>
+                <span class="method-start">134277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkFilterUser</span>
+                <span class="method-start">134351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkHistoryUser</span>
+                <span class="method-start">146277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSortingIntUser</span>
+                <span class="method-start">152071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSortingStringUser</span>
+                <span class="method-start">163999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDisplayedAddingButtonUser</span>
+                <span class="method-start">172777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkEnabledAllFieldsForChangingUser</span>
+                <span class="method-start">175827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184301 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestOperator</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">185553 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkDisplayedAddButtonOperator</span>
+                <span class="method-start">189962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkExportExcelButtonOperator</span>
+                <span class="method-start">199937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkEnabledAllFieldsForChangingOperator</span>
+                <span class="method-start">199978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCreationQueueOperator</span>
+                <span class="method-start">210223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRecipientOperator</span>
+                <span class="method-start">222745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkChangeQueueAndHistoryOperator</span>
+                <span class="method-start">227965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkChangeStatusAndUnavailableFormOperator</span>
+                <span class="method-start">232044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDeletingQueueOperator</span>
+                <span class="method-start">235541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">245908 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestAdminDeletingCreationQueue</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">246818 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkDeletingQueueWhichCreatedByOperator</span>
+                <span class="method-start">251213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">283528 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

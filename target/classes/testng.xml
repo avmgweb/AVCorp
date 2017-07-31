@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteChrome" >
+    <test name="ChromeTestAdmin" group-by-instances="true"  >
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="TestAdmin" />
+        </classes>
+    </test>
+
+    <test name="ChromeTestUser" group-by-instances="true"  >
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="TestUser" />
+        </classes>
+    </test>
+
+    <test name="ChromeTestOperator" group-by-instances="true"  >
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="TestOperator" />
+        </classes>
+    </test>
+
+    <test name="ChromeTTestAdmin2" group-by-instances="true"  >
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="TestAdminDeletingCreationQueue" />
+        </classes>
+    </test>
+
+
+</suite>
